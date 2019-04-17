@@ -4,7 +4,7 @@ Usage:
 
 Step 1:
 
-composer require kdrmlhcn/translate-helper dev-master
+composer require kdrmlhcn/yandex-translate-helper dev-master
 
 Step 2:
 
