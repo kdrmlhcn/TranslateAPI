@@ -11,8 +11,16 @@ namespace TranslateAPI;
 class translate implements translateInterface
 {
 
+    /**
+     * @var string
+     */
     public $url = "https://translate.yandex.net/api/v1.5/tr/translate";
 
+    /**
+     * translate constructor.
+     * @param $apiKey
+     * @param $targetLanguage
+     */
     public function __construct($apiKey, $targetLanguage)
     {
 
@@ -20,6 +28,9 @@ class translate implements translateInterface
 
     }
 
+    /**
+     * @param $text
+     */
     public function translate($text)
     {
 
@@ -28,6 +39,11 @@ class translate implements translateInterface
 
     }
 
+    /**
+     * @param $address
+     * @param $data
+     * @return bool|string
+     */
     public function HTTPPoster($address, $data)
     {
 
