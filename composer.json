@@ -1,0 +1,16 @@
+{
+  "name":"kdrmlhcn/yandex-translate-helper",
+  "description": "Basic yandex translate api helper",
+  "authors": [{
+    "name": "Kadir Melih Can",
+    "email": "kadirmelihcan@gmail.com"
+  }],
+  "require": {
+    "php": ">= 5"
+  },
+  "autoload": {
+    "psr-4": {
+      "TranslateAPI\\": "src//"
+    }
+  }
+}
